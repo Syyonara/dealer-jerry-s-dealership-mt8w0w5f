@@ -1,16 +1,16 @@
 [
   {
     "id": "browse-inventory",
-    "label": "View all inventory",
+    "label": "Browse inventory",
     "url": "/store",
-    "style": "link",
+    "style": "primary",
     "intent": "browse-inventory",
     "newTab": false,
     "active": true
   },
   {
     "id": "request-quote",
-    "label": "Check availability",
+    "label": "Request a quote",
     "url": null,
     "formId": "request-a-quote",
     "style": "primary",
@@ -20,76 +20,29 @@
   },
   {
     "id": "book-service",
-    "label": "Schedule Service",
+    "label": "Book service",
     "url": null,
     "formId": "request-info",
-    "style": "primary",
+    "style": "secondary",
     "intent": "book-service",
     "newTab": false,
     "active": true
   },
   {
     "id": "call-us",
-    "label": "(800) 555-0199",
-    "url": "tel:+18005550199",
-    "style": "link",
+    "label": "Call us",
+    "url": "tel:+15551234567",
+    "style": "secondary",
     "intent": "call-dealer",
     "newTab": false,
     "active": true
   },
   {
     "id": "about-us",
-    "label": "Learn More About Us",
-    "url": "/#stats",
-    "style": "primary",
-    "intent": "about",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "call-sales",
-    "label": "Call Sales",
-    "url": "tel:+18005550199",
+    "label": "About us",
+    "url": "/about",
     "style": "link",
-    "intent": "call-sales",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "explore-brand",
-    "label": "Explore Brand",
-    "url": "/store",
-    "style": "primary",
-    "intent": "browse-brand",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "order-parts",
-    "label": "Order Parts",
-    "url": null,
-    "formId": "request-info",
-    "style": "secondary",
-    "intent": "order-parts",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "get-prequalified",
-    "label": "Get Pre-Qualified",
-    "url": null,
-    "formId": "request-a-quote",
-    "style": "secondary",
-    "intent": "get-financing",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "back-to-top",
-    "label": "Back to top",
-    "url": "#top",
-    "style": "primary",
-    "intent": "back-to-top",
+    "intent": "about",
     "newTab": false,
     "active": true
   }
