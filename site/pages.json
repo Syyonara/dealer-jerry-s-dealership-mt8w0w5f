@@ -7,8 +7,15 @@
     "out": "index.html",
     "dir": "home",
     "status": "published",
-    "seo": { "ogImage": "/images/sunset-highway.jpg", "noindex": false },
-    "templates": { "header": null, "footer": null, "utilityNav": null }
+    "seo": {
+      "ogImage": "/images/sunset-highway.jpg",
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   },
   {
     "slug": "privacy",
@@ -18,8 +25,15 @@
     "out": "privacy/index.html",
     "dir": "privacy",
     "status": "published",
-    "seo": { "ogImage": null, "noindex": true },
-    "templates": { "header": null, "footer": null, "utilityNav": null }
+    "seo": {
+      "ogImage": null,
+      "noindex": true
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   },
   {
     "slug": "terms",
@@ -29,7 +43,31 @@
     "out": "terms/index.html",
     "dir": "terms",
     "status": "published",
-    "seo": { "ogImage": null, "noindex": true },
-    "templates": { "header": null, "footer": null, "utilityNav": null }
+    "seo": {
+      "ogImage": null,
+      "noindex": true
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "temp-page-for-demo",
+    "dir": "temp-page-for-demo",
+    "title": "Temp Page for demo",
+    "path": "/temp-page-for-demo",
+    "out": "temp-page-for-demo/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
