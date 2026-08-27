@@ -9,6 +9,10 @@
       "destination": "https://jerry-s-dealership.buzznerdrv.com/store"
     },
     {
+      "source": "/store/",
+      "destination": "https://jerry-s-dealership.buzznerdrv.com/store/"
+    },
+    {
       "source": "/store/:path*",
       "destination": "https://jerry-s-dealership.buzznerdrv.com/store/:path*"
     }
