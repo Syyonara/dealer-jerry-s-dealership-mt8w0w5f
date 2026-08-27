@@ -2,9 +2,12 @@
   "version": 2,
   "id": "template",
   "name": "New template",
-  "conditions": [],
-  "css": "",
-  "js": "",
+  "conditions": [
+    {
+      "type": "inventory",
+      "ref": null
+    }
+  ],
   "nodes": [
     {
       "id": "header",
